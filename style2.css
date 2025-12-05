@@ -1,0 +1,673 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playpen+Sans:wght@100..800&family=Poiret+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #3576C6;
+    width: 1440px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* --------------------header-------------------- */
+.header-content {
+    padding-top: 12px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-nav {
+    gap: 43px;
+}
+
+.header-nav h3 {
+    gap: 43px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.hres3 h3 {
+    color: #0B0E66;
+}
+
+.header-button button {
+    background-color: #0B0E66;
+    width: 197px;
+    height: 49px;
+    border: none;
+}
+
+.header-button p {
+    font-family: "Inter", sans-serif;
+    color: #26C7EA;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* sec-1 */
+.sec1-wrap {
+    background-image: url(./images/index2sec1.png);
+    width: 1440px;
+    height: 700px;
+    margin-top: 2px;
+}
+
+.sec1-content button {
+    margin-top: 510px;
+    margin-left: 436px;
+    width: 569px;
+    height: 120px;
+    border: none;
+    border-radius: 50px 0px 50px 0px;
+    background-color: #3576C6;
+}
+
+.sec1-content button a {
+    font-size: 48px;
+    color: #FFFDFD;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+}
+
+/* sec-2 */
+.sec2-grid {
+    margin-top: 96px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 590px);
+    grid-template-rows: repeat(3, 360px);
+    column-gap: 100px;
+    row-gap: 50px;
+}
+
+.sec2-grid-item {
+    border: #69724F solid 1px;
+}
+
+/* --------------------footer-------------------- */
+.footer {
+    background-color: #3576C6;
+    width: 1440px;
+    height: 243px;
+    margin: 0 auto;
+    margin-top: 91px;
+}
+
+.footer-content {
+    padding-top: 40px;
+    justify-content: space-around;
+}
+
+.footer-content P {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    font-family: "Inter", sans-serif;
+    color: #FFFDFD;
+}
+
+.footer-image img {
+    width: 224px;
+    height: 158px;
+
+}
+
+.footer-item1 P {
+    padding-bottom: 10px;
+}
+
+.footer-item1-texts :nth-child(1) {
+    font-weight: 700;
+    color: #26C7EA;
+    padding-bottom: 20px;
+}
+
+.socials-footer {
+    display: flex;
+    padding-top: 20px;
+    gap: 25px;
+    align-items: center;
+}
+
+.footer-item2-pt1 p {
+    margin-top: 10px;
+    gap: 15px;
+
+}
+
+.footer-item2-pt1 img {
+    margin-right: 15px;
+}
+
+.footer-item2-pt2 img {
+    margin-right: 15px;
+}
+
+.footer-item2 h2,
+h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: #26C7EA;
+}
+
+.footer-item2 img {
+    margin-top: 1px;
+    width: 38px;
+    height: 38px;
+}
+
+.k {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: #26C7EA;
+    padding-left: 50px;
+}
+
+.footer-item2 p {
+    text-transform: capitalize;
+}
+
+.footer-item2-pt1 h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-item2-pt2 p {
+    padding-top: 10px;
+}
+
+
+.sec2-grid-item {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* ---------------------------------------------------Sec2-item1--------------------------------------------------- */
+
+#sec2-grid-item1 {
+    background-color: #242436;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    .calculator-Enter {
+        display: flex;
+        background-color: rgb(89, 122, 91);
+        width: 500px;
+        height: 50px;
+        margin-top: 10px;
+        padding: 6px;
+        border-radius: 10px;
+        border: 2px solid black;
+
+        p {
+            font-family: "Poiret One", sans-serif;
+            letter-spacing: 1px;
+            margin-left: auto;
+            font-size: 30px;
+            color: red;
+        }
+    }
+
+    .calc-inputs {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+
+        input,
+        select {
+            background-color: #8e8ba5;
+        }
+
+        :nth-child(1),
+        :nth-child(3) {
+            font-family: "Delius", cursive;
+            width: 100px;
+            height: 30px;
+            border-radius: 10px;
+            border: 1px solid;
+            text-align: center;
+        }
+
+        :nth-child(2) {
+            font-family: "Delius", cursive;
+            width: 40px;
+            height: 30px;
+            border-radius: 10px;
+            border: 1px solid;
+            text-align: center;
+        }
+    }
+
+    button {
+        margin-top: 30px;
+        width: 150px;
+        height: 60px;
+        border-radius: 10px;
+        border: none;
+        background-color: #8e8ba5;
+        cursor: pointer;
+
+        p {
+            font-family: "Playpen Sans", cursive;
+            font-size: 15px;
+        }
+    }
+
+    .arrow-left-text {
+        position: absolute;
+        margin-left: 360px;
+        margin-top: 70px;
+        width: 200px;
+        height: 30px;
+        border-radius: 10px;
+        padding: 3px 0px 4px 7px;
+        background-color: #f8a94e;
+
+        p {
+            font-family: "Delius", cursive;
+        }
+    }
+
+    .arrow-left {
+        margin-left: 150px;
+        margin-top: 77.5px;
+        position: absolute;
+        /* тут я зробив стрiлочку, в iнетi подивився як */
+        width: 0;
+        height: 0;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+        border-right: 15px solid #f8a94e;
+    }
+
+    .arrow-left-textnum2 {
+        position: absolute;
+        position: absolute;
+        margin-left: 360px;
+        margin-top: 230px;
+        width: 200px;
+        height: 30px;
+        border-radius: 10px;
+        padding: 3px 0px 4px 7px;
+        background-color: #f8a94e;
+
+        p {
+            font-family: "Delius", cursive;
+        }
+    }
+
+    .arrow-leftnum2 {
+        position: absolute;
+        margin-left: 150px;
+        margin-top: 237.5px;
+        position: absolute;
+        /* тут я зробив стрiлочку, в iнетi подивився як */
+        width: 0;
+        height: 0;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+        border-right: 15px solid #f8a94e;
+    }
+}
+
+.displaynone {
+    display: none;
+}
+
+/* ---------------------------------------------------Sec2-item2--------------------------------------------------- */
+
+#sec2-grid-item2 {
+    background-color: rgb(143, 45, 38);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        margin-top: 10px;
+        padding-bottom: 100px;
+        font-family: "Delius", cursive;
+        font-weight: 500;
+    }
+
+    button {
+        margin-top: 30px;
+        width: 150px;
+        height: 70px;
+        border-radius: 15px;
+        border: none;
+        background-color: #28792f;
+        font-size: 20px;
+        font-family: "Inter", sans-serif;
+        letter-spacing: 1px;
+        color: rgb(48, 0, 0);
+        cursor: pointer;
+    }
+
+    .inputiki {
+        display: flex;
+        gap: 80px;
+        align-items: center;
+
+        input {
+            width: 100px;
+            height: 30px;
+            border-radius: 8px;
+            border: 1px solid #242436;
+            font-family: "Delius", cursive;
+            text-align: center;
+            background-color: #28792f;
+            color: red;
+        }
+
+        p {
+            font-family: "Poiret One", sans-serif;
+            font-size: 60px;
+            color: #28792f;
+        }
+    }
+}
+
+/* ---------------------------------------------------Sec2-item3--------------------------------------------------- */
+
+#sec2-grid-item3 {
+    background-color: #cddc39;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        margin-top: 15px;
+        margin-bottom: 50px;
+        font-family: "Delius", cursive;
+    }
+
+    h2 {
+        font-family: "Poiret One", sans-serif;
+        color: red;
+        letter-spacing: 1px;
+        font-size: 40px;
+    }
+
+    .timer-buttons {
+        margin-top: 50px;
+        display: flex;
+        gap: 40px;
+
+        button {
+            width: 120px;
+            height: 60px;
+            border-radius: 17px;
+            border: 2px solid rgb(62, 93, 160);
+            cursor: pointer;
+        }
+
+        #Start {
+            background-color: #2196f3;
+            padding: 5px 0px 10px 0px;
+
+            p {
+                font-family: "Delius", cursive;
+                font-size: 25px;
+            }
+
+            &:hover {
+                box-shadow: 0px 8px 24px #00d4b885;
+            }
+        }
+
+        #Pause {
+            background-color: #00bcd4;
+            padding: 5px 0px 10px 0px;
+
+            p {
+                font-family: "Delius", cursive;
+                font-size: 25px;
+            }
+
+            &:hover {
+                box-shadow: 0px 8px 24px #8600d485;
+            }
+        }
+
+        #Restart {
+            background-color: #ff9800;
+            padding: 5px 0px 10px 0px;
+
+            p {
+                font-family: "Delius", cursive;
+                font-size: 25px;
+            }
+
+            &:hover {
+                box-shadow: 0px 8px 24px #d4000085;
+            }
+        }
+    }
+}
+
+.colornone {
+    color: #ffffff00;
+}
+
+
+
+#sec2-grid-item4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ECF0F3;
+
+    h1 {
+        margin-top: 15px;
+        padding-bottom: 30px;
+        font-family: "Delius", cursive;
+    }
+
+    h3 {
+        font-size: 30px;
+        font-family: "Poiret One", sans-serif;
+        color: #50E3C2;
+
+        #item4chislo {
+            color: red;
+        }
+    }
+
+    p {
+        font-family: "Delius", cursive;
+        padding-bottom: 30px;
+        color: #2C3E50;
+
+        span {
+            color: #F5A623;
+        }
+    }
+
+    input {
+        background-color: #2C3E50;
+        border: none;
+        width: 90px;
+        height: 50px;
+        border-radius: 23px;
+        text-align: center;
+        color: #50E3C2;
+        font-size: 20px;
+    }
+
+    button {
+        margin-top: 30px;
+        width: 200px;
+        height: 80px;
+        border-radius: 30px;
+        border: none;
+        padding: 5px 5px 7px 5px;
+        background-color: #4A90E2;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.85;
+        }
+
+        h5 {
+            font-size: 24px;
+            font-family: "Delius", cursive;
+            color: #FFFFFF;
+        }
+    }
+
+    .item4Wins {
+        margin-left: 480px;
+        margin-top: 50px;
+    }
+}
+
+.colorOrange {
+    color: #F5A623;
+}
+
+#sec2-grid-item5 {
+    background-color: #8dc5cc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        margin-top: 15px;
+        padding-bottom: 30px;
+        font-family: "Delius", cursive;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-family: "Poiret One", sans-serif;
+        color: #f1ea82;
+
+        #item4chislo {
+            color: red;
+        }
+    }
+
+    h4 {
+        margin-top: 10px;
+        font-family: "Delius", cursive;
+        font-size: 25px;
+    }
+
+    p {
+        margin-top: 10px;
+        padding-bottom: 10px;
+        font-size: 30px;
+        font-family: "Poiret One", sans-serif;
+    }
+
+    h5 {
+        font-size: 30px;
+        font-family: "Poiret One", sans-serif;
+    }
+
+    #stone-scis-paper {
+        display: flex;
+        margin-top: 10px;
+        gap: 20px;
+
+        button {
+            width: 70px;
+            height: 70px;
+            font-size: 30px;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #e9e9e9;
+            &:hover {
+                opacity: 0.80;
+            }
+        }
+    }
+
+    .draw {
+        position: absolute;
+        margin-top: 145px;
+        font-size: 60px;
+    }
+}
+
+.colorNone {
+    color: #8dc5cc;
+}
+
+.colorRed {
+    color: red;
+}
+
+button.inactive {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+#item5{
+    background-color: #FFD1DC;
+    h1{
+        margin-top: 10px;
+        text-align: center;
+        color: #FFA6C9;
+        -webkit-text-stroke: 1px black;
+        font-family: "Poiret One", sans-serif;
+        letter-spacing: 1px;
+    }
+    .up-arrows{
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .middle-arrows{
+            display: flex;
+            gap: 40px;
+        }
+        button{
+            width: 40px;
+            height: 40px;
+            border-radius: 15px;
+            font-size: 25px;
+            text-align: center;
+            border: 2px solid black;
+            background-color: #E89EB8;
+            &:hover{
+                cursor: pointer;
+                background-color: #FFA6C9;
+                color: rgb(68, 68, 68);
+            }
+        }
+    }
+}
+#ball{
+    position: absolute;
+    margin-top: 1850px;
+    margin-left: 1280px;
+    font-size: 40px;
+    
+}

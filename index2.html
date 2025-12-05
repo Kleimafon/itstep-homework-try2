@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style2.css">
+</head>
+
+<body id="body">
+    <h3 id="ball">🎈</h3>
+    <header>
+        <nav>
+            <div class="header">
+                <div class="header-wrap">
+                    <div class="header-content flex">
+                        <div class="header-icon">
+                            <img src="./images/лого школи 1.png" alt="logo">
+                        </div>
+                        <div class="header-nav flex">
+                            <a href="./index.html" class="hres1">
+                                <h3>Головна</h3>
+                            </a>
+                            <a href="./index1.html" class="hres2">
+                                <h3>Про нас</h3>
+                            </a>
+                            <a href="./index2.html" class="hres3">
+                                <h3>Математика</h3>
+                            </a>
+                        </div>
+                        <div class="header-button">
+                            <button>
+                                <p>Приєднатися</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="sec1-wrap">
+                <div class="sec1-content">
+                    <button><a href="#">математика&JavaScript</a></button>
+                </div>
+            </div>
+            <div class="sec2-wrap">
+                <div class="sec2-content">
+                    <div class="sec2-grid">
+                        <!-- calculator -->
+                        <div class="sec2-grid-item" id="sec2-grid-item1">
+                            <!-- num1help -->
+                            <div class="arrow-left-text displaynone" id="num1arrow1">
+                                <p>Введiть перше число</p>
+                            </div>
+                            <div class="arrow-left displaynone" id="num1arrow2"></div>
+                            <!-- num2help -->
+                            <div class="arrow-left-textnum2 displaynone" id="num2arrow1">
+                                <p>Введiть друге число</p>
+                            </div>
+                            <div class="arrow-leftnum2 displaynone" id="num2arrow2"></div>
+                            <!-- calculator-in -->
+                            <div class="calculator-Enter">
+                                <p id="calculator-enter">0</p>
+                            </div>
+                            <div class="calc-inputs">
+                                <input type="number" id="Num1">
+                                <select id="operator" name="operator">
+                                    <option value="+">+</option>
+                                    <option value="-">-</option>
+                                    <option value="*">*</option>
+                                    <option value="/">/</option>
+                                </select>
+                                <input type="number" id="Num2">
+                            </div>
+                            <button id="ButtonCalculator">
+                                <p>Вивести результат</p>
+                            </button>
+                        </div>
+                        <!-- Max Num -->
+                        <div class="sec2-grid-item" id="sec2-grid-item2">
+                            <h1>Максимальне число</h1>
+                            <div class="inputiki">
+                                <input type="number" id="mxNum1">
+                                <p id="maxresult">?</p>
+                                <input type="number" id="mxNum2">
+                            </div>
+                            <button id="buttonMax"><p>Обчислити</p></button>
+                        </div>
+                        <div class="sec2-grid-item" id="sec2-grid-item3">
+                            <h1>Секундомiр</h1>
+                            <h2 id="timerNumber">60</h2>
+                            <div class="timer-buttons">
+                                <button id="Start"><p>Старт</p></button>
+                                <button id="Pause"><p>Пауза</p></button>
+                                <button id="Restart"><p>Рестарт</p></button>
+                            </div>
+                        </div>
+                        <div class="sec2-grid-item" id="sec2-grid-item4">
+                            <h1>Вгадай число!</h1>
+                            <h3 id="item4h3">Число <span id="item4chislo">?</span></h3>
+                            <p>Спроб <span id="item4try">0</span></p>
+                            <input type="number" id="item4input" max="100">
+                            <button id="item4button"><h5>Перевiрити</h5></button>
+                            <p class="item4Wins">Перемог <span class="colorOrange" id="item4Wins">0</span></p>
+                        </div>
+                        <div class="sec2-grid-item" id="sec2-grid-item5">
+                            <h1 class="draw colorRed displaynone">Нiчья!</h1>
+                            <h1>Камiнь, Ножницi, Папiр!</h1>
+                            <h2 id="Enemy">Суперник</h2>
+                            <h4 id="enemyEl">?</h4>
+                            <p id="timerItem5" class="colorNone">3</p>
+                            <h5 id="You">Ти</h5>
+                            <div id="stone-scis-paper">
+                                <button id="stone">🗿</button>
+                                <button id="scis">✂️</button>
+                                <button id="paper">📄</button>
+                            </div>
+                        </div>
+                        <div class="sec2-grid-item" id="item5">
+                            <h1>Мандруй по сайту!</h1>
+                            
+                            <div class="up-arrows">
+                                <button id="UP">↑</button>
+                                <div class="middle-arrows">
+                                    <button id="LEFT">←</button>
+                                    <button id="RIGHT">→</button>
+                                </div>
+                                <button id="BOTTOM">↓</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-content flex">
+                <div class="footer-image">
+                    <img src="./images/лого школи 1.png" alt="logo">
+                </div>
+                <div class="footer-item1">
+                    <div class="footer-item1-texts">
+                        <p>Навчання</p>
+                        <p>Загальноосвітня школа</p>
+                        <p>Початкова школа</p>
+                    </div>
+                    <div class="socials-footer flex">
+                        <img src="./images/inst 1.png" alt="inst">
+                        <img src="./images/youtube 1.png" alt="youtube">
+                        <img src="./images/twitter 1.png" alt="twitter">
+                    </div>
+                </div>
+                <div class="footer-item2">
+                    <h2 class="k">Контакти</h2>
+                    <div class="footer-item2-pt1 flex">
+                        <img src="./images/map.png" alt="logo">
+                        <div>
+                            <p>вул. Ленкавського, 17б</p>
+                            <h3>(067) 699-57-76 (050) 488-99-51 if@itstep.org<br>
+                                ПН. - ПТ з 09.00 до 19.00 СБ. з 09.00 до 16.00</h3>
+                        </div>
+                    </div>
+                    <div class="footer-item2-pt2 flex">
+                        <img src="./images/map.png" alt="logo" class="map">
+                        <p>вул. Гузара, 49 (4 поверх)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </footer>
+</body>
+
+</html>
